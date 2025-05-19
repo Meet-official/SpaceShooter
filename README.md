@@ -25,7 +25,7 @@ In this game, you control a spaceship that must shoot bullets on incoming enemy 
 ## Getting Started
 
 Click this link to play online: 
-https://github.com/Meet-official/SpaceShooter.git
+https://meet-official.github.io/SpaceShooter/
 
 To run the Space Shooter game locally, follow these steps:
 
