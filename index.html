@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceShooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="header1" style="text-align:center; color:white;">Space Shooter</h1>
+    <div id="background">
+        <div class="container" id="container"></div>
+        <div id="plane"></div>
+        <div id="vessel"></div>
+        <div id="upbutton" class="control-button"></div>
+        <div id="downbutton" class="control-button"></div>
+    </div>
+    <h2><div id="score">Score: 0</div></h2>
+
+    <!-- Game Over message and restart button -->
+    <div id="game-over">
+        <h2>Game Over</h2>
+
+        <button id="restart-button">Restart Game</button>
+    </div>
+
+    <div id="start-panel">
+        <h1>Space Shooter</h1>
+        <div id="start-instructions" style="text-align:start;">
+            <h3><u>Controls</u></h3>
+            <p> 
+                - "W" = To Move Up
+                <br> 
+                - "S" = To Move Down
+            </p>
+        </div>
+        <button id="start-button"><b>Let's begin. 🤜🏻</b></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
